@@ -1,0 +1,7 @@
+site_name: Call.Report
+site_url: https://call.report/
+theme:
+    name: material
+nav:
+    - Home: 'index.md'
+    - About: 'about.md'
