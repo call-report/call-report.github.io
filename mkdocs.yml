@@ -5,3 +5,8 @@ theme:
 nav:
     - Home: 'index.md'
     - About: 'about.md'
+    - Code: 'code.md'
+    - Data Sources:
+        - Federal Reserve:
+          - UBPR: 'data-sources.md#ubpr'
+        - FDIC: 'data-sources.md'
