@@ -40,4 +40,8 @@ It is not unusual for an institution to refile its financial data. Among the rea
 
 ##### Reviewing Day-to-Day Changes
 
-For all daily datasets, data may be 
+For all daily datasets, data may of course be loaded in total and individual data points compared between days.
+
+##### XBRL Webservice
+
+For only non-holding companies, the Federal Financial Institutions Institutions Examination Council (FFIEC) publishes an XBRL-based data feed that permits querying of all reporting institutions to identify the last date at which the institution filed data. Institutions reporting updates on multiple dates within a single quarter would, of course, indicate multiple refilings of that respective institution.

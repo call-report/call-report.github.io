@@ -6,6 +6,10 @@ nav:
     - Home: 'index.md'
     - About: 'about.md'
     - Code: 'code.md'
+    - APIs: 'apis.md'
+    - Data Access Libraries: 'libraries.md'
+    - Data Sources: 'datasources.md'
+    - Update Frequencies: 'dataupdates.md'
     - Data Sources:
         - Federal Reserve:
           - UBPR: 'data-sources.md#ubpr'
