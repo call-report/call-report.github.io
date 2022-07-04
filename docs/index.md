@@ -1,10 +1,9 @@
-# Call.Report
+# Call.Report: A Resource for Bank Regulatory Data
 
 Greetings! 👋
 
 This site and accompanying code repository provides resources for importing, analyzing, and reviewing Federal financial system regulatory ("Call Report") data.
 
-All code and resources are licensed under the MIT License. **Users of this site are advised to carefully review the Disclaimers that follow on this page.**
 
 ## Why Call.Report?
 
@@ -22,7 +21,7 @@ For questions or inquiries regarding professional services, email [info@civicobj
 
 ## Disclaimers
 
-**Civic Objective Solutions LLC, and any contributors (the "Publishers"), to this site assume no responsibilty or liability for any errors or omissions in the site's content. The information contained is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness, or timeliness.
+**Civic Objective Solutions LLC, and any contributors (the "Publishers"), to this site assume no responsibility or liability for any errors or omissions in the site's content. The information contained is provided on an "as is" basis with no guarantees of completeness, accuracy, usefulness, or timeliness.
 **
 
 **

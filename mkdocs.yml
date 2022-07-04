@@ -2,15 +2,33 @@ site_name: Call.Report
 site_url: https://call.report/
 theme:
     name: material
+    font:
+      text: Oxygen
+    features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+    icon:
+      logo: material/bank
+    palette:
+      primary: purple
+      accent: blue
+extra_css:
+  - stylesheets/extra.css
+
 nav:
     - Home: 'index.md'
     - About: 'about.md'
+    - License: 'license.md'
     - Code: 'code.md'
-    - APIs: 'apis.md'
-    - Data Access Libraries: 'libraries.md'
+    # - APIs: 'apis.md'
+    # - Data Access Libraries: 'libraries.md'
     - Data Sources: 'datasources.md'
-    - Update Frequencies: 'dataupdates.md'
-    - Data Sources:
-        - Federal Reserve:
-          - UBPR: 'data-sources.md#ubpr'
-        - FDIC: 'data-sources.md'
+    # # - Update Frequencies: 'dataupdates.md'
+    # - Data Sources:
+    #     - UBPR: 'data-sources.md#ubpr'
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/call-report
+
+copyright: Copyright &copy; 2022 Civic Objective Solutions LLC
