@@ -2,16 +2,18 @@ site_name: Call.Report
 site_url: https://call.report/
 theme:
     name: material
+    include_sidebar: false
     font:
       text: Oxygen
     features:
-      - navigation.tabs
+
       - navigation.tabs.sticky
     icon:
       logo: material/bank
     palette:
       primary: purple
       accent: blue
+custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
 
@@ -22,10 +24,10 @@ nav:
     - Code: 'code.md'
     # - APIs: 'apis.md'
     # - Data Access Libraries: 'libraries.md'
-    - Data Sources: 'datasources.md'
     # # - Update Frequencies: 'dataupdates.md'
-    # - Data Sources:
-    #     - UBPR: 'data-sources.md#ubpr'
+    - Data Sources:
+        - Overview: 'datasources.md'
+        - Bank Time Series: 'datasources/banktimeseries.md'
 extra:
   social:
     - icon: fontawesome/brands/github 

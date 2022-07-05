@@ -7,7 +7,7 @@ This site and accompanying code repository provides resources for importing, ana
 
 ## Why Call.Report?
 
-Researchers, students, and investors without access to expensive financial data terminals have limited options for accessing, loading, or analyzing Federal financial system data. With data and documentation spread across multiple government websites, creating a single dataset can be challenging.
+Researchers, students, and investors without access to expensive financial data services have limited options for accessing, loading, or analyzing Federal financial system data. With data and documentation spread across multiple government websites, creating a single dataset can be challenging.
 
 Included on this site are tools, code, explanations, and other resources developed by Civic Objective Solutions LLC for these purposes.
 

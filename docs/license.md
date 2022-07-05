@@ -1,8 +1,16 @@
-### Applicability
+# License and Other Legal Stuff
 
-The following license applies to all content on this site and related code repositories.
+Prior to utilizing this site, please carefully review the license and disclaimers.
 
-### License Text
+## Copyright
+
+Copyright © 2022 Civic Objective Solutions LLC <michael@civicobj.com>
+
+## Applicability
+
+The copyright, license, and disclaimers apply to all content hosted at the _call.report_.
+
+## License
 
 The MIT License (MIT)
 
