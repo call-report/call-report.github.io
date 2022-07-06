@@ -1,5 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/michael/Development/call.report/call-report.github.io'
-mkdocs serve
-make: Leaving directory `/Users/michael/Development/call.report/call-report.github.io'
- 
