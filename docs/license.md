@@ -4,7 +4,8 @@ Prior to utilizing this site, please carefully review the license and disclaimer
 
 ## Copyright
 
-Copyright © 2022 Civic Objective Solutions LLC <michael@civicobj.com>
+Copyright © 2022 Civic Objective Solutions LLC 
+<michael@call.report>
 
 ## Applicability
 
@@ -14,7 +15,7 @@ The copyright, license, and disclaimers apply to all content hosted at the _call
 
 The MIT License (MIT)
 
-Copyright © 2022 Civic Objective Solutions LLC <michael@civicobj.com>
+Copyright © 2022 Civic Objective Solutions LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

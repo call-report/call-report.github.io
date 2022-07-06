@@ -1,4 +1,4 @@
-site_name: Call.Report
+site_name: "Call.Report: A Resource for Bank Regulatory Analysis"
 site_url: https://call.report/
 theme:
     name: material
@@ -8,8 +8,7 @@ theme:
     features:
 
       - navigation.tabs.sticky
-    icon:
-      logo: material/bank
+    logo: assets/images/call_report_icon_v1.png 
     palette:
       primary: purple
       accent: blue
@@ -29,7 +28,7 @@ nav:
         - Overview: 'datasources.md'
         - Bank Time Series Regulatory Data: 'datasources/banktimeseries.md'
     - Release Notes: 'releasenotes.md'
-    
+
 extra:
   social:
     - icon: fontawesome/brands/github 

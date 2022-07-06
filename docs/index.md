@@ -1,9 +1,8 @@
-# Call.Report: A Resource for Bank Regulatory Data Analysts
+# Call.Report: A Resource for Bank Regulatory Analysis
 
 Greetings! 👋
 
 This site and accompanying code repository provides resources for importing, analyzing, and reviewing Federal financial system regulatory ("Call Report") data.
-
 
 ## Why Call.Report?
 
@@ -25,14 +24,5 @@ For questions or inquiries regarding professional services, email [info@civicobj
 **
 
 **
-This site provides a forum for analyzing, processing, and acquiring Federal financial system data. _This site does not offer investment advice. This site is intended and must be used for informational purposes only._ The Publishers do not have access to non-public information about publicly traded companies.
+This site provides a forum for analyzing, processing, and acquiring Federal financial system regulatory data. _This site does not offer investment advice. This site is intended and must be used for informational purposes only._ The Publishers do not have access to non-public information about publicly traded companies.
 **
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-

@@ -4,4 +4,4 @@ Libraries and utilities for downloading, extracting, and processing regulatory d
 
 ### Utilities
 
-- [__CDR Taxonomy Processor__](https://github.com/call-report/public-python-scripts/cdr-taxonomy-processor): Converts the XBRL-based taxonomy files into a hierarchial JSON format.
+- [__CDR Taxonomy Processor__](https://github.com/call-report/scripts-toolkit/python/cdr_taxonomy_xbrl_to_json): Converts the XBRL-based taxonomy files into a hierarchial JSON format.
