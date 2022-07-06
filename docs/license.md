@@ -8,7 +8,7 @@ Copyright © 2022 Civic Objective Solutions LLC <michael@civicobj.com>
 
 ## Applicability
 
-The copyright, license, and disclaimers apply to all content hosted at the _call.report_.
+The copyright, license, and disclaimers apply to all content hosted at the _call.report_ web site.
 
 ## License
 

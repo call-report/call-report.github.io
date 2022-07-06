@@ -6,15 +6,18 @@ This site provides an open-source code and documentation resource on U.S. Bank a
 
 Documentation on Federal financial regulatory data is fragmented, sometimes out-of-date, and full of jargon and other technical terms. The resources on this site are intended to demystify the datasets, facilitate useful analysis of the underlying data, and provide software-based tools to assist the (extraction, translation, and loading) ETL process.
 
+## Contact Information
+
+This site is owned by Civic Objective Solutions LLC, and edited by [Michael Handelman, CFA](https://mikeh.dev).
+
+For professional services or other inquiries, please contact michael@civicobj.com.
+
 ## FAQs
 
 ### Why call.report?
 
 The content on this site was originally developed for commercial sales and use by the author. However, this purpose was ultimately not realized. In lieu of destroying or permanently archiving the data and resources created, those resources are provided on this site under a permissive MIT License.
 
-### Who made this site?
-
-Michael here. Pleasure to meet you! Information about me is available at mikeh.dev.
 
 ### Who are the intended users of this site?
 

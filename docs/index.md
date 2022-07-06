@@ -1,4 +1,4 @@
-# Call.Report: A Resource for Bank Regulatory Data
+# Call.Report: A Resource for Bank Regulatory Data Analysts
 
 Greetings! 👋
 

@@ -1,4 +1,4 @@
-# Bank Regulatory Data
+# Bank Time Series Regulatory Data
 
 ## About
 
