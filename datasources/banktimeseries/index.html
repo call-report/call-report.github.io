@@ -798,9 +798,17 @@
 <h1 id="bank-time-series-regulatory-data">Bank Time Series Regulatory Data</h1>
 <h2 id="about">About</h2>
 <h3 id="time-series-frequency">Time Series Frequency</h3>
-<p>Most all public bank regulatory data is time series data with a quarterly frequency. Some data, particularly for smaller financial institutions' data is semi-annual. </p>
+<p>Most all public bank regulatory data is time series data with a quarterly reporting frequency. Some data, particularly for smaller financial institutions' data is semi-annual. </p>
 <h3 id="publishing-frequency">Publishing frequency</h3>
-<p>Regulatory agencies receive data on a rolling basis. Bulk data downloads are updated approximately monthly, while "webservice" feeds are updated soon after bank regulatory filings are submitted and validated.</p>
+<p>Regulatory agencies receive data on a rolling basis. </p>
+<ul>
+<li>
+<p>Bulk data downloads are updated approximately monthly</p>
+</li>
+<li>
+<p>"Webservice" feeds are updated soon after bank regulatory filings are submitted and validated. (A Python-based wrapper for these feeds is available at https://pypi.org/project/ffiec-data-connect)</p>
+</li>
+</ul>
 <h3 id="data-fields-and-data-dictionaries">Data Fields and Data Dictionaries</h3>
 <p>Time series are published by field name (an "MDRM"), the ID of the reporting institution, and the reporting date (typically quarterly). </p>
 <p>The data release date is not included in the datasets themselves, but can be inferred from the data publication data.</p>
