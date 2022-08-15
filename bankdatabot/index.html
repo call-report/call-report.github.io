@@ -284,11 +284,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#post-types" class="md-nav__link">
-    Post Types
+  <a href="#types-of-automated-posts" class="md-nav__link">
+    Types of Automated Posts
   </a>
   
-    <nav class="md-nav" aria-label="Post Types">
+    <nav class="md-nav" aria-label="Types of Automated Posts">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -303,6 +303,19 @@
   <a href="#refilings" class="md-nav__link">
     Refilings
   </a>
+  
+    <nav class="md-nav" aria-label="Refilings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-are-filings-updated" class="md-nav__link">
+    Why are filings updated?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -529,11 +542,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#post-types" class="md-nav__link">
-    Post Types
+  <a href="#types-of-automated-posts" class="md-nav__link">
+    Types of Automated Posts
   </a>
   
-    <nav class="md-nav" aria-label="Post Types">
+    <nav class="md-nav" aria-label="Types of Automated Posts">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -548,6 +561,19 @@
   <a href="#refilings" class="md-nav__link">
     Refilings
   </a>
+  
+    <nav class="md-nav" aria-label="Refilings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-are-filings-updated" class="md-nav__link">
+    Why are filings updated?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -604,16 +630,37 @@
 <h2 id="disclaimer">Disclaimer</h2>
 <p>Note that the service is presently beta. No assertions on accuracy or service-level agreements are made.</p>
 <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-<h2 id="post-types">Post Types</h2>
+<h2 id="types-of-automated-posts">Types of Automated Posts</h2>
 <h3 id="ffiec-031-041-and-051-regulatory-data">FFIEC 031, 041, and 051 Regulatory Data</h3>
-<p>Documentation pending...</p>
+<p>BankDataBot monitors filings published through the <a href="https://cdr.ffiec.gov/public/pws/webservices/retrievalservice.asmx?op=TestUserAccess">FFIEC's Webservice interface</a>, an API-based service that provides the individual filings of FFIEC 031, 041, and 051, on a "live" basis.</p>
+<p>In other words, as soon as a financial institution submits its data to the FFIEC, and as soon as that data is validated, the data may be downloaded from the Webservice API.</p>
+<p>The service, however, is pull-based, meaning that in lieu of notices "pushed" by the FFIEC to subscribers, the API must be queried for information.</p>
+<p>BankDataBot conducts these queries on an automated basis, collects facsimiles of the submitted regulatory reports, and joins relevant metadata to the resultant dataset.</p>
 <h4 id="refilings">Refilings</h4>
-<p>Documentation pending...</p>
+<p>Refiling postings are tweeted when BankDataBot identifies a filing of a regulatory report that is updated from a previous filing.</p>
+<p>For example, a bank may file its initial quarterly report on April 15th for the March 31st (1st Quarter) reporting date, but then updates its filing, sending new data on July 15th.</p>
+<p>The FFIEC Webservice does not maintain prior copies of filings, therefore when a bank files an updated quarterly filing, the previous filing disappears.</p>
+<p>The BankDataBot maintains a rolling record of all new and previous filings, and when a refiling is detected, conducts a comparison between the prior and the updated filing.</p>
+<h5 id="why-are-filings-updated">Why are filings updated?</h5>
+<p>The reason for a refiling is not included in the submitted data; the institution would need to be contacted directly to ascertain the reason.</p>
 <h4 id="tweet-content">Tweet Content</h4>
-<p>Documentation pending...</p>
+<p>The tweets contain the following info:</p>
+<ul>
+<li>Date of updated report filing</li>
+<li>Date of previous report filing</li>
+<li>Name of institution</li>
+<li><code>#RSSDXXXXXX</code> a hashtag with the RSSD (ID) of the institution. Clicking this hashtag will show other tweets on BankDataBot (or elsewhere) related to this institution.</li>
+<li>If there is a twitter screen name associated with the institution, that name is included in the tweet.</li>
+<li>The name of the refiled report (031, 041, or 051)</li>
+<li>The number of data series changed between the refiled report and the last filed report.</li>
+<li>A link to a gzipped-JSON file containing the original filing, updated filing, and changed data fields.</li>
+</ul>
 <h4 id="tweet-data">Tweet Data</h4>
 <p>Documentation pending...</p>
 <h4 id="new-filings">New Filings</h4>
+<ul>
+<li>TBA</li>
+</ul>
 
               
             </article>
