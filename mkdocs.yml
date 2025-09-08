@@ -1,0 +1,94 @@
+site_name: "Call.Report: A Resource for Bank and Holding Company Regulatory Data"
+site_url: https://call.report
+site_description: "Open-source resources and code for analyzing bank regulatory data"
+repo_url: https://github.com/call-report
+repo_name: call-report
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/call_report_icon_v1.png
+  favicon: assets/images/favicon.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: purple
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: purple
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Oxygen
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - License: license/index.md
+  - Code Library: code.md
+  - Data Library: datalibrary.md
+  - Data Sources:
+    - Overview: datasources/index.md
+    - Bank Time Series: datasources/banktimeseries.md
+    - Attributes Data: datasources/attributes.md
+    - UBPR: datasources/ubpr.md
+  - API Reference: apis/index.md
+  - Release Notes: releasenotes.md
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-]+'
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/call-report
+      name: Call Report on GitHub
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/ffiec-data-connect/
+      name: Python Package
+  analytics:
+    provider: google
+    property: G-YLGYYYELXL
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.snippets
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+copyright: |
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+  </a>
